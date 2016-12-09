@@ -84,7 +84,7 @@ class LinkedList(object):
         """Insert the given item at the head of this linked list
 
         Θ(1) running time to loop over entire list to print"""
-        # TODO: prepend given item
+
         node = Node(item)
         if self.head is not None:
             currentHeadNode = self.head
